@@ -1,0 +1,28 @@
+{
+  "name": "unofficialtmoapi",
+  "version": "1.0.0",
+  "description": "unofficialtmoapi",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [
+    "tu manga online api",
+    "tmo api",
+    "lector tmo api"
+  ],
+  "author": "TRtam",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-adblocker": "^2.13.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "user-agents": "^1.0.1125"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
