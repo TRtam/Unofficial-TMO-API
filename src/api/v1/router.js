@@ -11,6 +11,7 @@ const controllers = {
     latestUploaded: require("./controllers/latestUploaded"),
     search: require("./controllers/search"),
     library: require("./controllers/library"),
+    reader: require("./controllers/reader")
 }
 
 router.get("/populars", controllers.populars.index)
@@ -27,5 +28,7 @@ router.get("/latestUploaded", controllers.latestUploaded)
 router.get("/search", controllers.search)
 
 router.get("/library/:href", controllers.library)
+
+router.get("/reader/:href", controllers.reader)
 
 module.exports = router

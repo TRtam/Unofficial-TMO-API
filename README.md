@@ -79,5 +79,8 @@ This is only for learnings purpose.
 ### Library
 ```GET``` http://localhost:80/api/v1/library/:href
 
+### Reader
+```GET``` http://localhost:80/api/v1/reader/:href
+
 ## License
 MIT

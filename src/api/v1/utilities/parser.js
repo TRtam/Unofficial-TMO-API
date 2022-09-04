@@ -115,11 +115,25 @@ const library = html => {
     return result
 }
 
+const reader = html => {
+    const $ = cheerio.load(html)
+
+    const result = {}
+
+    result.name = $("h1").text()
+    result.chapter = $("h2").text().trim().split(" ")[1]
+    result.uploadedBy = $("h2 > a").text()
+    result.images = $("div.img-container > img").map((_, element) => $(element).data("src")).toArray()
+
+    return result
+}
+
 module.exports = {
     populars,
     trending,
     latestAdded,
     latestUploaded,
     search,
-    library
+    library,
+    reader
 }
