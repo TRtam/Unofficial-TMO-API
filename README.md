@@ -16,7 +16,7 @@ This is only for learnings purpose.
 
 ## v1 Routes
 ### Populars
-```GET``` [http://localhost:80/api/v1/populars]
+```GET``` http://localhost:80/api/v1/populars
 
 <details>
     <summary>query (optional)</summary>
@@ -75,3 +75,6 @@ This is only for learnings purpose.
     genders
     excludeGenders
 </details>
+
+## License
+MIT
