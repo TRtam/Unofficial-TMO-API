@@ -76,5 +76,8 @@ This is only for learnings purpose.
     excludeGenders
 </details>
 
+### Library
+```GET``` http://localhost:80/api/v1/library/:href
+
 ## License
 MIT
